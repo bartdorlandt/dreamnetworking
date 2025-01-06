@@ -8,10 +8,13 @@ nav:
       - blog/index.md
       - Tags: blog/tags.md
   - About: about.md
+  - Contact:
+      - Contact: contact/index.md
+      - Mail sent: contact/mailsent.md
 
 # repo_name: bartdorlandt/dreamnetworking
 # repo_url: https://github.com/bartdorlandt/dreamnetworking
-site_url: "https://home.dreamnetworking.nl"
+site_url: "https://blog.dreamnetworking.nl"
 
 theme:
   name: material
@@ -87,6 +90,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       name: Dreamnetworking on LinkedIn
       link: https://www.linkedin.com/in/bartdorlandt/
+
   # consent:
   #   title: Cookie consent
   #   consent:
