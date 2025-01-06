@@ -7,7 +7,6 @@ nav:
   - Blog:
       - blog/index.md
       - Tags: blog/tags.md
-  - About: about.md
   - Contact:
       - Contact: contact/index.md
       - Mail sent: contact/mailsent.md
