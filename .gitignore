@@ -3,3 +3,4 @@
 **/__pycache__/
 dream/site/
 .DS_Store
+.python-version
