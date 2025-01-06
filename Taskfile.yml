@@ -1,0 +1,13 @@
+version: "3"
+
+tasks:
+  build:
+    dir: dream
+    cmds:
+      - uv run mkdocs build -v --strict -t material
+  test:
+    cmds:
+      - act -j test
+  deploy:
+    cmds:
+      - uv run mkdocs gh-deploy --force

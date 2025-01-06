@@ -1,0 +1,10 @@
+[project]
+name = "dreamnetworking"
+version = "0.1.0"
+description = "Dream Networking and Automation website"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = ["mkdocs-material>=9.5.49", "mkdocs-rss-plugin>=1.17.1"]
