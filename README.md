@@ -9,6 +9,8 @@ It uses [mkdocs.org](https://www.mkdocs.org) to generate the static site.
 ## Links
 * [Mkdocs material setup](https://squidfunk.github.io/mkdocs-material/setup/)
 * [Mkdocs material reference](https://squidfunk.github.io/mkdocs-material/reference/)
+* [Mkdocs material icons](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+
 
 ## Commands
 
