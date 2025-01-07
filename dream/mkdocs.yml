@@ -113,6 +113,7 @@ hooks:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.blocks.caption
   - attr_list
   - md_in_html
   - pymdownx.highlight:

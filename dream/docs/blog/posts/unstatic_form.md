@@ -2,7 +2,7 @@
 # draft: true
 date:
   created: 2025-01-06
-  # updated: 2025-01-06
+  updated: 2025-01-07
 # title: Something different than below
 description: Today I ran into a service that allows you to create a contact form without having to write a bunch of code. Making it really easy to incorporate it in your mkdocs website.
 categories:
@@ -15,7 +15,7 @@ tags:
 
 # Contact form made simple
 
-![form](images/unstatic_form.png){ style="height:300px" align=right}
+![form](images/unstatic_form/unstatic_form.png){ style="height:300px" align=right}
 Today I ran into a service that allows you to create a contact form without having to write a bunch of code. Making it really easy to incorporate it in your mkdocs website.
 
 <!-- more -->
