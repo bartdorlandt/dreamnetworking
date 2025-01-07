@@ -13,7 +13,7 @@ nav:
 
 # repo_name: bartdorlandt/dreamnetworking
 # repo_url: https://github.com/bartdorlandt/dreamnetworking
-site_url: "https://blog.dreamnetworking.nl"
+site_url: "https://blog.dreamnetworking.nl/"
 
 theme:
   name: material
@@ -63,6 +63,7 @@ extra_css:
 
 plugins:
   - search
+  - social
   - blog:
       blog_toc: true
       archive_date_format: MMMM yyyy
@@ -102,6 +103,9 @@ extra:
   #     as to measure the effectiveness of our documentation and whether users
   #     find what they're searching for. With your consent, you're helping us to
   #     make our documentation better.
+
+hooks:
+  - hooks/socialmedia.py
 
 markdown_extensions:
   - admonition
