@@ -3,6 +3,7 @@
 date:
   created: 2025-01-06
   # updated: 2025-01-06
+# title: Something different than below
 description: Today I ran into a service that allows you to create a contact form without having to write a bunch of code. Making it really easy to incorporate it in your mkdocs website.
 categories:
   - Services

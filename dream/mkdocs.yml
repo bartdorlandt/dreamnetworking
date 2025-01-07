@@ -84,12 +84,15 @@ extra:
     - icon: fontawesome/brands/bluesky
       name: Dreamnetworking on BlueSky
       link: https://bsky.app/profile/dreamnetworking.nl
-    - icon: fontawesome/brands/github
-      name: Dreamnetworking on GitHub
-      link: https://github.com/bartdorlandt/
     - icon: fontawesome/brands/linkedin
       name: Dreamnetworking on LinkedIn
       link: https://www.linkedin.com/in/bartdorlandt/
+    - icon: fontawesome/brands/github
+      name: Dreamnetworking on GitHub
+      link: https://github.com/bartdorlandt/
+    - icon: fontawesome/solid/rss
+      name: RSS created
+      link: feed_rss_created.xml
 
   # consent:
   #   title: Cookie consent
