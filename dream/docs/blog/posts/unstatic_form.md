@@ -9,10 +9,15 @@ tags:
   - services
   - un-static
 # slug: ny-eve
+# linkedin information
+og:title: Contact form made simple
+og:description: Today I ran into a service that allows you to create a contact form without having to write a bunch of code. Making it really easy to incorporate it in your mkdocs website.
+
 ---
 
 # Contact form made simple
 
+![form](images/unstatic_form.png){ style="height:300px" align=right}
 Today I ran into a service that allows you to create a contact form without having to write a bunch of code. Making it really easy to incorporate it in your mkdocs website.
 
 <!-- more -->

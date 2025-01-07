@@ -2,12 +2,43 @@ version: "3"
 
 tasks:
   build:
+    desc: Build the site
     dir: dream
-    cmds:
-      - uv run mkdocs build -v --strict -t material
+    cmd: |
+      export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
+      uv run mkdocs build -v --strict -t material
   test:
+    desc: Run the github test workflow with act
     cmds:
       - act -j test
   deploy:
+    desc: Deploy the site to GitHub Pages branch
     cmds:
       - uv run mkdocs gh-deploy --force
+  serve:
+    desc: Serve the site
+    dir: dream
+    interactive: true
+    cmd: |
+      export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
+      open http://localhost:8000/
+      uv run mkdocs serve
+
+  ### Initialize the repo
+  init:
+    desc: Initialize this repo install all dependencies
+    cmds:
+      - task: init_uv
+      - task: init_mac
+  init_uv:
+    desc: Initialize this repo with python dependencies
+    cmds:
+      - uv venv
+      - uv sync
+  init_mac:
+    desc: Initialize this repo install all dependencies
+    platforms:
+      - darwin
+    cmds:
+      - brew install cairo freetype libffi libjpeg libpng zlib pngquant
+
