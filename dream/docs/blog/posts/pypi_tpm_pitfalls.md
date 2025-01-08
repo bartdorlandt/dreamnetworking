@@ -2,7 +2,7 @@
 # draft: true
 date:
   created: 2025-01-07
-  # updated: 2025-01-06
+  updated: 2025-01-08
 # title: Something different than below
 description: Using pypi trusted publisher management and OIDC to push builds to pypi. Some pitfalls to avoid.
 categories:
@@ -20,7 +20,7 @@ tags:
 ![security pipeline](images/pypi_tpm/pypi_tpm_image.png){ style="height:300px" align=right}
 Be the cool kid on pypi, I thought, use the Trusted Publisher Management and OpenID Connect (OIDC)... I thought...
 
-While working on my latest repo convert_poetry2uv, I wanted to automatically push the builds to pypi. Traditionally a username/password combination was used, which was later replaced by an API token. These days OIDC can be used, which I tried. I'm here to share some pitfalls, so hopefully you don't fall in them.
+While working on my latest repo [convert_poetry2uv](https://pypi.org/project/convert-poetry2uv/), I wanted to automatically push the builds to pypi. Traditionally a username/password combination was used, which was later replaced by an API token. These days OIDC can be used, which I tried. I'm here to share some pitfalls, so hopefully you don't fall in them.
 
 <!-- more -->
 
