@@ -18,7 +18,7 @@ tags:
 
 ![Paperless](images/paperless/paperless.png){ style="height:300px" align=right}
 
-Recently I was helping out some friends with paperless, how to structure their documents, how to implement a flow for their documents, etc. On occassion this triggered me to look at how use paperless myself. I've been using it for a while now and I'm very happy with it. I've also added some automation to it, which I'll share in this post.
+Recently I was helping out some friends with paperless, how to structure their documents, how to implement a flow for their documents, etc. On occasion this triggered me to look at how use paperless myself. I've been using it for a while now and I'm very happy with it. I've also added some automation to it, which I'll share in this post.
 
 <!-- more -->
 
@@ -30,7 +30,7 @@ Getting started with paperless is quite easy. The [documentation](https://docs.p
 
 Let's skip right to the beautiful part. No matter how you start your setup with paperless, there is no wrong way. No matter how you start with tags, correspondents or categories, you can always change them later. This is what I love about paperless. You can start with a simple setup and grow it as you go.
 
-Even the storage path structure, which is alreday very flexible in paperless, can be changed later. Any change to it, will be reflected on the filesystem without any worries on failing.
+Even the storage path structure, which is already very flexible in paperless, can be changed later. Any change to it, will be reflected on the filesystem without any worries on failing.
 
 Here are some examples of how I've structured my documents:
 
@@ -50,13 +50,13 @@ For all "things" in paperless, you can choose to have it done "automagically" or
 
 As with the storage paths, the matching can be done using it algorithms, these will start working after learning about a few (if I recall correctly, ~ 20 documents).
 
-Otherwise, you can have it match on the precense of certain words, either exact or via regex, and some more options. I'd say, there is no best way, just your way of choosing how to use it.
+Otherwise, you can have it match on the presence of certain words, either exact or via regex, and some more options. I'd say, there is no best way, just your way of choosing how to use it.
 
 The same logic applies to `tags`, `documents` and `correspondents`.
 
 ## Automation
 
-I'll go into some of the internal automations as well as some external ones.
+I'll go into some of the internal automation as well as some external ones.
 
 ### Custom fields and workflows
 
@@ -85,7 +85,7 @@ In the "Actions" section you can assign the custom field `Total` to the document
 
 I have set up a dedicated mailbox for paperless to monitor. Every hour paperless scan the mailbox for new documents. It will process the documents and add them to the database.
 
-With this in place, I can just send/forward any mail. Quite useful! I didn't want to give it access to my private or work mailboxes, that is why I've setu up a dedicated mailbox.
+With this in place, I can just send/forward any mail. Quite useful! I didn't want to give it access to my private or work mailboxes, that is why I've setup up a dedicated mailbox.
 
 Having the dedicated mailbox I can have some additional automation for it. When invoices are received to a specific alias, they will also be forwarded to my bookkeeping program, allowing me to process that email in both systems with a single action.
 
