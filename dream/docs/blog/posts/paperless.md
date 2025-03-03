@@ -18,7 +18,7 @@ tags:
 
 ![Paperless](images/paperless/paperless.png){ style="height:300px" align=right}
 
-Recently I was helping out some friends with paperless, how to structure their documents, how to implement a flow for their documents, etc. On occasion this triggered me to look at how use paperless myself. I've been using it for a while now and I'm very happy with it. I've also added some automation to it, which I'll share in this post.
+Recently I was helping out some friends with paperless, how to structure their documents, how to implement a flow for their documents, etc. On occasion this triggered me to look at how I use paperless myself. I've been using it for a while now and I'm very happy with it. I've also added some automation to it, which I'll share in this post.
 
 <!-- more -->
 
@@ -28,7 +28,7 @@ Getting started with paperless is quite easy. The [documentation](https://docs.p
 
 ## Beautiful part
 
-Let's skip right to the beautiful part. No matter how you start your setup with paperless, there is no wrong way. No matter how you start with tags, correspondents or categories, you can always change them later. This is what I love about paperless. You can start with a simple setup and grow it as you go.
+Let's skip right to the beautiful part. No matter how you start your setup with paperless, there is no wrong way. No matter how you start with tags, correspondents, document types or storage paths, you can always change them later. This is what I love about paperless. You can start with a simple setup and grow it as you go.
 
 Even the storage path structure, which is already very flexible in paperless, can be changed later. Any change to it, will be reflected on the filesystem without any worries on failing.
 
@@ -52,7 +52,7 @@ As with the storage paths, the matching can be done using it algorithms, these w
 
 Otherwise, you can have it match on the presence of certain words, either exact or via regex, and some more options. I'd say, there is no best way, just your way of choosing how to use it.
 
-The same logic applies to `tags`, `documents` and `correspondents`.
+The same logic applies to `tags`, `document types` and `correspondents`.
 
 ## Automation
 
@@ -78,12 +78,12 @@ In the "Actions" section you can assign the custom field `Total` to the document
 
 
 > Note: What this doesn't do:
-> When it was incorrectly assigned to invoices, it will not remove the custom field. This is still easily done when processing your inbox.
+> When it was incorrectly assigned to invoices, it will not remove the custom field. Though this is still easily done when processing your inbox.
 
 
 ### Email
 
-I have set up a dedicated mailbox for paperless to monitor. Every hour paperless scan the mailbox for new documents. It will process the documents and add them to the database.
+I have set up a dedicated mailbox for paperless to monitor. Every hour paperless scan the mailbox for new mails. It will process the documents and add them to the database.
 
 With this in place, I can just send/forward any mail. Quite useful! I didn't want to give it access to my private or work mailboxes, that is why I've setup up a dedicated mailbox.
 
@@ -93,13 +93,14 @@ Therefore, depending on the alias, the document will be processed differently.
 
 
 ### Paperless app the phone
-(I'm sure there is an app on Android as well)
 
 I've also set up the paperless app on my phone. This allows me to quickly scan documents and have them processed by paperless. I can also add tags, correspondents and categories to the document. This is quite useful when I'm on the go and want to process a document quickly.
 
 Sharing documents from the browser is not really a quick option, you would need to download the file and take an action on it.
 
 With the [application](https://apps.apple.com/nl/app/swift-paperless/id6448698521?l=en-GB) you can look at a document and quickly take an action on it. Including having your own shortcuts..
+
+(I'm sure there is an app on Android as well)
 
 ### Shortcuts
 
