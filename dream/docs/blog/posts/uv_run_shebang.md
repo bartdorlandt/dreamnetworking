@@ -16,7 +16,7 @@ tags:
 
 # Improved shebang for your python standalone script
 
-![uv shebang](images/uv_shebang/uv_shebang.png){ style="height:300px" align=right}
+![uv shebang](images/uv_shebang/uv_shebang.png){ style="height:220px" align=right}
 
 Sometimes you just want a script, without having to specify a virtualenv or polluting your global python environment. Given [PEP-0723](https://peps.python.org/pep-0723/) we can build script as we would normally, though now add a few comments to it to specify the dependencies.
 

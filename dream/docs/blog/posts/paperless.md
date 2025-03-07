@@ -16,7 +16,7 @@ tags:
 
 # Paperless
 
-![Paperless](images/paperless/paperless.png){ style="height:300px" align=right}
+![Paperless](images/paperless/paperless.png){ style="height:220px" align=right}
 
 Recently I was helping out some friends with paperless, how to structure their documents, how to implement a flow for their documents, etc. On occasion this triggered me to look at how I use paperless myself. I've been using it for a while now and I'm very happy with it. I've also added some automation to it, which I'll share in this post.
 
