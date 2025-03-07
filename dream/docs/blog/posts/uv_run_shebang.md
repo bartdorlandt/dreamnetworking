@@ -18,9 +18,9 @@ tags:
 
 ![uv shebang](images/uv_shebang/uv_shebang.png){ style="height:220px" align=right}
 
-Sometimes you just want a script, without having to specify a virtualenv or polluting your global python environment. Given [PEP-0723](https://peps.python.org/pep-0723/) we can build script as we would normally, though now add a few comments to it to specify the dependencies.
+Sometimes you just want a script, without having to specify a virtualenv or polluting your global python environment. Given [PEP-0723](https://peps.python.org/pep-0723/) we can build scripts as we would normally, though now add a few comments to it to specify the dependencies.
 
-When we combine that with [uv](https://docs.astral.sh/uv/guides/scripts/) we can easily run the script without having to activate a virtualenv or specify the python interpreter. And it will just take care of it. Assume the script has the name `script.py` we would call it with `uv run script.py`.
+When we combine that with [uv](https://docs.astral.sh/uv/guides/scripts/) we can easily run the script without having to activate a virtualenv or specify the python interpreter. And it will just take care of it. Assume the script has the name `script.py` we would call it with `uv run -s script.py`.
 
 <!-- more -->
 
