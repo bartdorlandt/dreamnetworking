@@ -3,6 +3,12 @@ hide:
     - navigation
     - toc
 ---
+<style>
+  /* Inline styles */
+  .md-main__inner {
+    max-width: 840px;
+  }
+</style>
 <section>
   <div class="md-grid"
   style="max-width: 840px; margin-left: 0; display: flex; justify-content: left;">

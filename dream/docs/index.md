@@ -5,8 +5,8 @@ hide:
 ---
 <style>
   /* Inline styles */
-  .md-grid {
-    max-width: 600px;
+  .md-main__inner {
+    max-width: 700px;
   }
 </style>
 
