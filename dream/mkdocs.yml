@@ -5,11 +5,13 @@ nav:
   - Home: index.md
   # - Services: services/index.md
   - Blog:
-      - blog/index.md
-      - Tags: blog/tags.md
+    - blog/index.md
+    - blog/tags.md
+  - Speaker:
+    - speaker/index.md
   - Contact:
-      - Contact: contact/index.md
-      - Mail sent: contact/mailsent.md
+    - Contact: contact/index.md
+    - Mail sent: contact/mailsent.md
   - Linkedin: https://www.linkedin.com/in/bartdorlandt/
 
 # repo_name: bartdorlandt/dreamnetworking
@@ -66,12 +68,9 @@ plugins:
   - search
   - social
   - blog:
+      blog_dir: blog
       blog_toc: true
-      archive_date_format: MMMM yyyy
-      # categories_allowed:
-      #   - Networking
-      #   - Python
-      #   - Tools
+      archive_date_format: yyyy
   - tags
   - rss:
       match_path: "blog/posts/.*"
@@ -125,3 +124,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      toc_depth: 3

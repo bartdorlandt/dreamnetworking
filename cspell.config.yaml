@@ -1,0 +1,9 @@
+version: "0.2"
+ignorePaths:
+  - dream/mkdocs.yml
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - DKNOG
+ignoreWords: []
+import: []
