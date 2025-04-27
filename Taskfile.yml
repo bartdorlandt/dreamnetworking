@@ -27,17 +27,17 @@ tasks:
 
   ### Initialize the repo
   init:
-    desc: Initialize this repo install all dependencies
+    desc: Initialize this repo install all dependencies for uv and mac
     cmds:
-      - task: init_uv
-      - task: init_mac
-  init_uv:
-    desc: Initialize this repo with python dependencies
+      - task: init:uv
+      - task: init:mac
+  init:uv:
+    desc: Initialize this repo with python dependencies with uv
     cmds:
       - uv venv
       - uv sync
-  init_mac:
-    desc: Initialize this repo install all dependencies
+  init:mac:
+    desc: Initialize this repo with mac dependencies
     platforms:
       - darwin
     cmds:
