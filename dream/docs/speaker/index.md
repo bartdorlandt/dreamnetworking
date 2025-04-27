@@ -16,9 +16,25 @@ hide:
 
 ## Presentations
 
-### The Tale of 2 Henrys
+### Convert Poetry to uv - lightning
+
+![Lightning at pyamsterdam](images/poetry2uv.png){ style="height:320px" align=right}
+
+* Date: 2024-03-27
+* Location: [Py.Amsterdam](https://py.amsterdam/)
+* Links:
+    * [Meetup](https://www.meetup.com/pyamsterdam/events/306556782/)
+
+#### Description
+
+During the python meetup there was room for some 5 minute lightning talks. I stepped up and shared my findings on poetry and uv, and the challenging with migrating from poetry to uv. Because of this challenge I've written a tool to help with that migration. Allowing to pass in the current pyproject.toml and convert it to uv.
+
+The tool is hosted at github - [convert_poetry2uv](https://github.com/bartdorlandt/convert_poetry2uv/).
+
+### The Tale of 2 Henrys and BMP
 
 *What building cars can teach us about building software and BMP*
+![DKNOG](images/dknog.png){ style="height:320px" align=right}
 
 * Date: 2024-03-06
 * Location: [DKNOG15](https://events.dknog.dk/event/32/)
@@ -40,8 +56,7 @@ From the technical side we zoom in on a recent project using BGP Monitoring Prot
 ### Repos are like children
 
 *parenting 101*
-
-*What building cars can teach us about building software and BMP*
+![PyUtrecht2024](images/pyutrecht2024.png){ style="height:320px" align=right}
 
 * Date: 2024-09-17
 * Location: [PyUtrecht](https://www.meetup.com/pyutrecht/)
