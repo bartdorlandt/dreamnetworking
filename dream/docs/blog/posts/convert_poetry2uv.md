@@ -3,7 +3,7 @@ date:
   created: 2025-05-27
   # updated: 2025-05-27
 # title: Something different than below
-description: <some description that is used by linkedin sharing>
+description: convert_poetry2uv; a tool to migrate your existing poetry based repositories to be easily migrated to uv.
 categories:
   - python
 tags:
