@@ -15,7 +15,7 @@ tags:
 
 # Contact form made simple
 
-![form](images/unstatic_form/unstatic_form.png){ style="height:220px" align=right}
+![form](images/unstatic_form/unstatic_form.png){ style="width:230px" align=right}
 Today I ran into a service that allows you to create a contact form without having to write a bunch of code. Making it really easy to incorporate it in your mkdocs website.
 
 <!-- more -->
