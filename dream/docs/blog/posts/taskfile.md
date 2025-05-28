@@ -17,3 +17,10 @@ Initial text
 
 <!-- more -->
 
+The diffs between others
+
+Different highlights I did via buffer
+* 1
+* 2
+* 3
+

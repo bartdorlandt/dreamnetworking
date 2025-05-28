@@ -51,7 +51,7 @@ tasks:
     cmd: |
       cat << EOF >> dream/docs/blog/posts/untitled.md
       ---
-      # draft: true
+      draft: true
       date:
         created: {{ now.Format "2006-01-02" }}
         # updated: {{ now.Format "2006-01-02" }}
