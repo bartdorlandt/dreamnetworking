@@ -16,6 +16,28 @@ hide:
 
 ## Presentations
 
+### Repos are like children, parenting 101 - PyGrunn 2025
+![PyGrunn](images/pygrunn.png){ style="height:320px" align=right}
+
+* Date: 2024-05-16
+* Location: [PyGrunn](https://pygrunn.org/)
+* Links:
+    * [Video](https://www.youtube.com/watch?v=Kc8fDYP5cJU)
+
+#### Description
+For those without children, you might never have realized that having a project is much like a child. At the same, for those with children, you may never have the time or piece of mind to realize it.
+
+I’ll take you through a walk of life on ‘creating’ your child(ren), how to deal with the early stages, and taking care of the rules and boundaries as these youngsters mature. How do you ensure that you raise a child to be proud of?
+
+What happens when your child is going through different phases in life? Going from kindergarten, to school and beyond. How will he behave? Will he be overwhelmed by all the new info/data thrown at him?
+
+And so, you become a proud parent and have the brilliant idea (or someone had an idea for you) of having another child. Do you leave it to fate that he will mature the same, or could you influence it in any way?
+
+Would it be possible to provide our children the tools to take care of themselves?
+
+For whoever got confused, we are still talking about repositories and code. ;)
+
+
 ### Convert Poetry to uv - lightning
 
 ![Lightning at pyamsterdam](images/poetry2uv.png){ style="height:320px" align=right}
@@ -53,7 +75,7 @@ This presentation will explore our vision for building better, more sustainable 
 From the technical side we zoom in on a recent project using BGP Monitoring Protocol (BMP). Where we previously had manual network verification, which improved to screen scraping, now having a push model from the router to a central database. This gives us an “offline” state and allows the customer to self verify their configured and advertised prefixes are accepted and learned as expected. This didn’t happen without challenges. We will share the pitfalls and the challenges and how we faced and overcame them.
 
 
-### Repos are like children
+### Repos are like children - PyUtrecht 2024
 
 *parenting 101*
 ![PyUtrecht2024](images/pyutrecht2024.png){ style="height:320px" align=right}

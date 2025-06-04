@@ -5,13 +5,13 @@ nav:
   - Home: index.md
   # - Services: services/index.md
   - Blog:
-    - blog/index.md
-    - blog/tags.md
-  - Speaker:
-    - speaker/index.md
+      - blog/index.md
+      - blog/tags.md
+  - Public Speaking:
+      - speaker/index.md
   - Contact:
-    - Contact: contact/index.md
-    - Mail sent: contact/mailsent.md
+      - Contact: contact/index.md
+      - Mail sent: contact/mailsent.md
   - Linkedin: https://www.linkedin.com/in/bartdorlandt/
 
 # repo_name: bartdorlandt/dreamnetworking
@@ -59,7 +59,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
 
 extra_css:
   - stylesheets/extra.css
