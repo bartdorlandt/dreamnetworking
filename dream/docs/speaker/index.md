@@ -112,12 +112,37 @@ During the talk we reference the growth of the child to several aspects of growi
 
 ## Podcasts
 
+### There Must Be a Better Way! - Network Automation Nerds
+
+![NetworkAutomationNerds](https://packetpushers.net/wp-content/uploads/2025/06/NAN093-artwork.png){ style="height:320px" align=right}
+
+* Date: 2025-06-04
+* Podcast: [Packet Pushers - Network Automation Nerds](https://packetpushers.net/podcasts/network-automation-nerds/nan093-network-automation-there-must-be-a-better-way/)
+* Podcast links:
+    * [Apple podcast](https://podcasts.apple.com/us/podcast/network-automation-nerds/id1730980821)
+    * [Spotify](https://open.spotify.com/show/24feK9uvQNAMf71dHqAXBG)
+    * [Overcast](https://overcast.fm/itunes1730980821)
+    * [PocketCasts](https://pca.st/s8h382t3)
+
+#### Description
+
+*“There must be a better way!”* is guest Bart Dorlandt’s motto, which he applies to network automation, among other things. In today’s episode, Bart shares what he’s learned about network automation, explains why he focuses on process over tools, and reflects on the importance of mentorship. Bart and Eric also discuss why even if listeners aren’t working on big automation projects, they can still look for better ways to manage their networks.
+
+* Links mentioned in the podcast:
+    * [Convert Poetry to UV](https://github.com/bartdorlandt/convert_poetry2uv/)
+    * [Convert Poetry to UV - PyPI](https://pypi.org/project/convert-poetry2uv/)
+    * [Beyond the Makefile](https://github.com/bartdorlandt/Beyond_the_Makefile)
+    * [Raymond Hettinger Youtube videos](https://www.youtube.com/results?search_query=+Raymond+Hettinger)
+    * [Task](https://taskfile.dev/)
+
+
 ### Deploying the BGP Monitoring Protocol (BMP) at ISP Scale
 
+![HeavyNetworking](https://packetpushers.net/wp-content/uploads/2024/11/HN759-artwork.png){ style="height:320px" align=right}
+
 * Date: 2024-11-13
-* Location: [Packet Pushers - Heavy Networking](https://packetpushers.net/podcast/heavy-networking/)
-* Links:
-    * [Webpage](https://packetpushers.net/podcasts/heavy-networking/hn-759-deploying-the-bgp-monitoring-protocol-bmp-at-isp-scale/)
+* Podcast: [Packet Pushers - Heavy Networking](https://packetpushers.net/podcasts/heavy-networking/hn-759-deploying-the-bgp-monitoring-protocol-bmp-at-isp-scale/)
+* Podcast links:
     * [Apple podcast](https://podcasts.apple.com/us/podcast/heavy-networking/id370842767)
     * [Spotify](https://open.spotify.com/show/7GlOoc33YmMT9j9hrvKH0y)
     * [Overcast](https://overcast.fm/itunes370842767)
