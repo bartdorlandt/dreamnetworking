@@ -20,7 +20,7 @@ tags:
 
 I have been using [Taskfile](https://taskfile.dev/) for a while now, and I really like it. It is a great alternative to Makefile, and it has some nice features that make it easier to use.
 
-In this short post I wanted to share some "magic" to be able to select the right docker compose application to use. Either the older `docker-compose` or the newer `docker compose` command, using the compose plugin.
+In this post I wanted to share some "magic" to be able to select the right docker compose application to use. Either the older `docker-compose` or the newer `docker compose` command, using the compose plugin.
 
 <!-- more -->
 
