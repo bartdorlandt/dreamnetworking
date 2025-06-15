@@ -163,6 +163,3 @@ tasks:
       - "{{.SUDO}} docker image prune"
 
 ```
-
-> NOTE: the shell scripts in `update-all` and `restart-all` are based on the fish shell I use.
-
