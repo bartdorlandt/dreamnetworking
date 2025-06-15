@@ -28,7 +28,7 @@ I have a `Taskfile.yml` that looks like this that allows me to update running do
 
 I want to be able to use the same tasks, even though I have to work with a system that still uses the older `docker-compose` command.
 
-How to deal with this?
+## How to deal with this?
 
 In the `var` section of the `Taskfile.yml`, I define a variable `DOCKERCOMPOSE` that will be set to either `docker compose` or `docker-compose` depending on the availability of the command.
 
@@ -41,6 +41,8 @@ vars:
   DOCKERCOMPOSE:
     sh: command -v docker-compose &> /dev/null && echo "docker-compose" || echo "docker compose"
 ```
+
+## Taskfile usage
 
 This will allow you to use the `DOCKERCOMPOSE` variable in your tasks, like so:
 
@@ -57,6 +59,8 @@ tasks:
 I have the same kind of logic around `{{.SUDO}}`. If this environment variable is set, it will use `sudo` to run the command, otherwise it will just run the command without `sudo`. This therefore depends on the system I used it on.
 
 Essentially, this allows me to use the same `Taskfile.yml` on different systems, without having to change the commands or the tasks.
+
+## More tasks around docker compose
 
 Below some more tasks that I use in my `Taskfile.yml`:
 
