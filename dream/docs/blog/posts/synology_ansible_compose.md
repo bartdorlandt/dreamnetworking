@@ -55,7 +55,7 @@ dockerCompose:
 
 ## The role `docker_compose`
 
-The role `docker_compose` is defined in my Ansible roles directory. The role contains the tasks to manage the docker containers.
+The role `docker_compose` is defined in my Ansible roles directory. The role contains the tasks to manage the docker containers, using the [docker_compose_v2 module](https://docs.ansible.com/ansible/latest/collections/community/docker/docker_compose_v2_module.html).
 The `roles/docker_compose/tasks/main.yml` looks like this:
 
 ```yaml
