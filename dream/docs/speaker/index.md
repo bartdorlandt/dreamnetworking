@@ -4,22 +4,38 @@ hide:
 #   - toc
 
 ---
-<style>
+<!-- <style>
   /* Inline styles */
   .md-main__inner {
     /* max-width: 1040px; */
     padding-left: 250px;
   }
-</style>
+</style> -->
 
 # Public speaking
 
 ## Presentations
 
+### BMP - Going beyond show commands and screen scraping
+![autocon3](images/autocon3.png){ style="height:320px" align=right}
+
+* Date: 2025-05-30
+* Location: [Autocon3](https://networkautomation.forum/autocon3/)
+* Links:
+    * [Video](https://youtu.be/MgK2YSfTvD8)
+
+#### Description
+With the automation around configuration generation and deployment already in place. It was the desire to present back to the customer that the BGP prefixes configured to be advertised were arrived as such. Though not only that, but also accepted through the policy.
+
+I will take you on the journey from where some felt that screen scraping was a good idea, to the current solution using BMP (BGP Monitoring Protocol). The chosen architecture, the challenges faced with the amount of data that comes with BGP and how we dealt with them.
+
+If you were looking on how to deal with your BGP data, especially your pre policy data, this should kickstart your adventure.
+
+
 ### Repos are like children, parenting 101 - PyGrunn 2025
 ![PyGrunn](images/pygrunn.png){ style="height:320px" align=right}
 
-* Date: 2024-05-16
+* Date: 2025-05-16
 * Location: [PyGrunn](https://pygrunn.org/)
 * Links:
     * [Video](https://www.youtube.com/watch?v=Kc8fDYP5cJU)
@@ -42,7 +58,7 @@ For whoever got confused, we are still talking about repositories and code. ;)
 
 ![Lightning at pyamsterdam](images/poetry2uv.png){ style="height:320px" align=right}
 
-* Date: 2024-03-27
+* Date: 2025-03-27
 * Location: [Py.Amsterdam](https://py.amsterdam/)
 * Links:
     * [Meetup](https://www.meetup.com/pyamsterdam/events/306556782/)
@@ -58,7 +74,7 @@ The tool is hosted at github - [convert_poetry2uv](https://github.com/bartdorlan
 *What building cars can teach us about building software and BMP*
 ![DKNOG](images/dknog.png){ style="height:320px" align=right}
 
-* Date: 2024-03-06
+* Date: 2025-03-06
 * Location: [DKNOG15](https://events.dknog.dk/event/32/)
 * Links:
     * [Video](https://youtu.be/e3OhlqFvwJg?si=JGmz8ATHulvWx-f5)
