@@ -328,7 +328,7 @@ With its own `validator` it allows you to specifically select which model to ass
 
 ## Before validator
 
-Recently [Urs Baumann](https://www.linkedin.com/in/ubaumannch/) pointed out to be annoyed by inputs, that could have 2 values, like strings and list of strings. To store those consistently as list[str] inside your pydantic model, the BeforeValidator() can be used. This will manipulate your data into its consistent desired type.
+In a chat, [Urs Baumann](https://www.linkedin.com/in/ubaumannch/) pointed out to be annoyed by inputs that could have 2 values, like strings and list of strings. To store those consistently as list[str] inside your pydantic model, the BeforeValidator() can be used. This will manipulate your data into its consistent desired type.
 
 I hadn't written about it before, because my specific use case required data to be restored as it was, therefore I was using a Union of "str | list[str]". The output below shows that the BeforeValidator makes things consistent, therefore it can't be restored to its original type (str).
 
