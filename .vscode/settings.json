@@ -1,12 +1,22 @@
 {
   "cSpell.words": [
+    "Baumann",
+    "classmethod",
     "Daly",
+    "deepdiff",
+    "elif",
     "Factuur",
     "Hettinger",
+    "isinstance",
     "linenums",
     "mailsent",
+    "netaddr",
+    "pprint",
+    "Pydantic",
     "pypa",
+    "serialiser",
     "Sigstore",
+    "startswith",
     "tika"
   ]
 }
