@@ -16,7 +16,7 @@ nav:
 
 # repo_name: bartdorlandt/dreamnetworking
 # repo_url: https://github.com/bartdorlandt/dreamnetworking
-site_url: "https://blog.dreamnetworking.nl/"
+site_url: "https://dreamnetworking.nl/"
 
 theme:
   name: material
@@ -92,20 +92,20 @@ extra:
       name: RSS created
       link: feed_rss_created.xml
 
-  # consent:
-  #   title: Cookie consent
-  #   consent:
-  #   actions:
-  #     - accept
-  #     # - manage
-  #     - reject
-  #   description: >-
-  #     We use cookies to enhance your browsing experience,
-  #     serve personalized ads or content, and analyze our traffic.
-  #     By clicking "Accept All", you consent to our use of cookies
+# consent:
+#   title: Cookie consent
+#   consent:
+#   actions:
+#     - accept
+#     # - manage
+#     - reject
+#   description: >-
+#     We use cookies to enhance your browsing experience,
+#     serve personalized ads or content, and analyze our traffic.
+#     By clicking "Accept All", you consent to our use of cookies
 
-hooks:
-  - hooks/socialmedia.py
+# hooks:
+#   - hooks/socialmedia.py
 
 markdown_extensions:
   - admonition
