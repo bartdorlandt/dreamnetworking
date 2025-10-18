@@ -2,17 +2,16 @@ site_name: Dream networking and automation
 site_description: Dream networking and automation home & blog
 site_author: Bart Dorlandt
 nav:
-  - Home: index.md
-  # - Services: services/index.md
-  - Blog:
+  - "🏠 Home": index.md
+  - "📝 Blog":
       - blog/index.md
       - blog/tags.md
-  - Public Speaking:
+  - "🎤 Public Speaking":
       - speaker/index.md
-  - Contact:
+  - "✉️ Contact":
       - Contact: contact/index.md
-      - Mail sent: contact/mailsent.md
-  - Linkedin: https://www.linkedin.com/in/bartdorlandt/
+      # - Mail sent: contact/mailsent.md
+  - "💼 LinkedIn": https://www.linkedin.com/in/bartdorlandt/
 
 # repo_name: bartdorlandt/dreamnetworking
 # repo_url: https://github.com/bartdorlandt/dreamnetworking
@@ -20,7 +19,6 @@ site_url: "https://dreamnetworking.nl/"
 
 theme:
   name: material
-  # include_search_page: false
   features:
     - content.action.edit
     - content.code.annotate
@@ -28,26 +26,31 @@ theme:
     - content.code.select
     - content.footnote.tooltips
     - content.tooltips
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.indexes
     - navigation.instant
-    - navigation.tabs
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
     - navigation.top
     - search.suggest
+    - search.highlight
     - toc.follow
+    # - toc.integrate
 
   language: en
-  # icon:
-  #   logo: material/lantern
-  #   favicon: material/lantern
-  #   edit: material/file-edit-outline
-  # favicon: images/favicon.svg
   custom_dir: docs/overrides
+  favicon: images/dream_logo2.png
+  logo: images/dream_logo2.png
 
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      accent: lime
+      primary: blue
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -55,6 +58,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode

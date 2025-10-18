@@ -6,7 +6,8 @@ date:
 # title: Something different than below
 description: How I use ansible to manage docker compose on my Synology NAS
 categories:
-  - ansible
+  - Ansible
+  - Docker
 tags:
   - ansible
   - docker-compose

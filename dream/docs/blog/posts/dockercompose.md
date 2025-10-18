@@ -6,7 +6,8 @@ date:
 # title: Something different than below
 description: Taskfile magic with docker compose
 categories:
-  - taskfile
+  - Taskfile
+  - Docker
 tags:
   - taskfile
   - docker-compose
