@@ -30,7 +30,6 @@ theme:
     - content.tooltips
     - navigation.indexes
     - navigation.instant
-    - navigation.instant.preview
     - navigation.tabs
     - navigation.top
     - search.suggest
