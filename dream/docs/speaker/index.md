@@ -1,4 +1,5 @@
 ---
+title: 🎤 Public Speaking
 hide:
   - navigation
 #   - toc
@@ -12,7 +13,7 @@ hide:
   }
 </style> -->
 
-# Public speaking
+# 🎤 Public speaking
 
 ## Presentations
 

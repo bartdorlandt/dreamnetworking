@@ -6,7 +6,7 @@ date:
 # title: Something different than below
 description: Paperless is awesome and even better with some automation.
 categories:
-  - paperless
+  - Paperless
 tags:
   - paperless
   - shortcuts
