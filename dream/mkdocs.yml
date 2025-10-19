@@ -46,22 +46,20 @@ theme:
   logo: images/dream_logo2.png
 
   palette:
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    # Dark mode as default
+    - scheme: slate
       primary: blue
       accent: cyan
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
         name: Switch to light mode
 
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    # Light mode as alternative
+    - scheme: default
       primary: blue
       accent: light blue
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-4
         name: Switch to dark mode
 
 extra_css:

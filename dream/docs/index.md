@@ -40,7 +40,7 @@ But it's not just about technical excellence – it's also about sharing knowled
 
 By partnering with us, we are committed to delivering customized solutions that support both immediate success and long-term innovation.
 
-![main picture](images/main.png){ .hero-image }
+![main picture](images/main_dark.png){ .hero-image }
 
 <div class="speaking-section">
   <h2>Public Speaking & Knowledge Sharing</h2>
