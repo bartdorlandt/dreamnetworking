@@ -194,7 +194,8 @@
   display: block !important;
 }
 
-/* Alternative selector in case the class isn't being applied */
+/* Theme-based image switching */
+.hero-image,
 img[src*="main.png"] {
   max-width: 70% !important;
   width: 70% !important;
@@ -203,6 +204,18 @@ img[src*="main.png"] {
   box-shadow: 0 8px 32px rgba(0,0,0,0.2);
   margin: 2rem auto !important;
   display: block !important;
+}
+
+/* Dark theme - show main_dark.png */
+[data-md-color-scheme="slate"] .hero-image,
+[data-md-color-scheme="slate"] img[src*="main.png"] {
+  content: url("../images/main_dark.png");
+}
+
+/* Light theme - show main_light.png */
+[data-md-color-scheme="default"] .hero-image,
+[data-md-color-scheme="default"] img[src*="main.png"] {
+  content: url("../images/main_light.png");
 }
 
 /* Custom scrollbar for webkit browsers */
