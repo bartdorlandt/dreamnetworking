@@ -1,0 +1,14 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Make LinkedIn and other external links open in new tab
+    const externalLinks = document.querySelectorAll('a[href*="linkedin.com"], a[href*="github.com"], a[href^="http"]:not([href*="dreamnetworking.nl"])');
+
+    externalLinks.forEach(function(link) {
+      // Only apply to navigation links, not content links
+      if (link.closest('.md-tabs') || link.closest('.md-nav')) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
