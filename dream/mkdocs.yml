@@ -93,6 +93,7 @@ extra:
     - icon: fontawesome/solid/rss
       name: RSS created
       link: feed_rss_created.xml
+  generator: false
 
 # consent:
 #   title: Cookie consent
@@ -127,3 +128,5 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       toc_depth: 3
+
+copyright: Dream networking and automation B.V.
